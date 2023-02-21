@@ -34,3 +34,5 @@ Changelog
          the upcoming versions 8.2 and 9.0 of NEURON.
 20220924 Update MOD files to avoid declaring variables and functions with
          the same name. See https://github.com/neuronsimulator/nrn/pull/1992
+20230420 Do not assume a full definition of Section is visible, for
+         compatibility with nrn#2027.
