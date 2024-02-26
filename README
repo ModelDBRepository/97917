@@ -36,3 +36,4 @@ Changelog
          the same name. See https://github.com/neuronsimulator/nrn/pull/1992
 20230420 Do not assume a full definition of Section is visible, for
          compatibility with nrn#2027.
+20240226 Use noiseFromRandom123 for result identity between 8.2 and 9.0

@@ -53,7 +53,8 @@ proc par_netstim_create() {local gid  localobj cell, syn, nc, ns, r
 		r.negexp(1)
 //		r.Isaac64(netstim_random_seedoffset + netstim_base_)
 		r.MCellRan4(netstim_random_seedoffset + 1000*netstim_base_)
-		ns.pp.noiseFromRandom(r)
+//		ns.pp.noiseFromRandom(r)
+                ns.pp.noiseFromRandom123(gid, netstim_base_, 0) // compatible back to 2016
 		netstim_randoms.append(r)
 	}
 	netstim_base_ += 1
