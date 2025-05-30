@@ -18,10 +18,11 @@ In the pardentgyrus directory, see `bg.sh` for an example of how these simulatio
 Changelog
 ---------
 20140403 splitcell/nrntraub/mod/ri.mod had `char* secname();` changed to `const char* secname();` to conform with ANSI C compiler in new NEURON version.
+
 20220523 Updated MOD files to contain valid C++ and be compatible with the upcoming versions 8.2 and 9.0 of NEURON.
+
 20220924 Update MOD files to avoid declaring variables and functions with the same name. See [https://github.com/neuronsimulator/nrn/pull/1992](https://github.com/neuronsimulator/nrn/pull/1992)
+
 20230420 Do not assume a full definition of Section is visible, for compatibility with nrn#2027.
 
----
-
-2025-05-30: Standardized to Markdown, and separated sections with proper headings and bullet points.
+20250530 Standardized to Markdown, and separated sections with proper headings and bullet points.
